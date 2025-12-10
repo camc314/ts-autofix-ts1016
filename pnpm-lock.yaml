@@ -1,0 +1,266 @@
+lockfileVersion: "9.0"
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+  .:
+    dependencies:
+      ts-morph:
+        specifier: ^27.0.2
+        version: 27.0.2
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+    devDependencies:
+      "@types/node":
+        specifier: ^24.10.2
+        version: 24.10.2
+      oxfmt:
+        specifier: ^0.17.0
+        version: 0.17.0
+
+packages:
+  "@isaacs/balanced-match@4.0.1":
+    resolution:
+      {
+        integrity: sha512-yzMTt9lEb8Gv7zRioUilSglI0c0smZ9k5D65677DLWLtWJaXIS3CqcGyUFByYKlnUj6TkjLVs54fBl6+TiGQDQ==,
+      }
+    engines: { node: 20 || >=22 }
+
+  "@isaacs/brace-expansion@5.0.0":
+    resolution:
+      {
+        integrity: sha512-ZT55BDLV0yv0RBm2czMiZ+SqCGO7AvmOM3G/w2xhVPH+te0aKgFjmBvGlL1dH+ql2tgGO3MVrbb3jCKyvpgnxA==,
+      }
+    engines: { node: 20 || >=22 }
+
+  "@oxfmt/darwin-arm64@0.17.0":
+    resolution:
+      {
+        integrity: sha512-OMv0tOb+xiwSZKjYbM6TwMSP5QwFJlBGQmEsk98QJ30sHhdyC//0UvGKuR0KZuzZW4E0+k0rHDmos1Z5DmBEkA==,
+      }
+    cpu: [arm64]
+    os: [darwin]
+
+  "@oxfmt/darwin-x64@0.17.0":
+    resolution:
+      {
+        integrity: sha512-trzidyzryKIdL/cLCYU9IwprgJegVBUrz1rqzOMe5is+qdgH/RxTCvhYUNFzxRHpil3g4QUYd2Ja831tc5Nehg==,
+      }
+    cpu: [x64]
+    os: [darwin]
+
+  "@oxfmt/linux-arm64-gnu@0.17.0":
+    resolution:
+      {
+        integrity: sha512-KlwzidgvHznbUaaglZT1goTS30osTV553pfbKve9B1PyTDkluNDfm/polOaf3SVLN7wL/NNLFZRMupvJ1eJXAw==,
+      }
+    cpu: [arm64]
+    os: [linux]
+
+  "@oxfmt/linux-arm64-musl@0.17.0":
+    resolution:
+      {
+        integrity: sha512-+tbYJTocF4BNLaQQbc/xrBWTNgiU6zmYeF4NvRDxuuQjDOnmUZPn0EED3PZBRJyg4/YllhplHDo8x+gfcb9G3A==,
+      }
+    cpu: [arm64]
+    os: [linux]
+
+  "@oxfmt/linux-x64-gnu@0.17.0":
+    resolution:
+      {
+        integrity: sha512-pEmv7zJIw2HpnA4Tn1xrfJNGi2wOH2+usT14Pkvf/c5DdB+pOir6k/5jzfe70+V3nEtmtV9Lm+spndN/y6+X7A==,
+      }
+    cpu: [x64]
+    os: [linux]
+
+  "@oxfmt/linux-x64-musl@0.17.0":
+    resolution:
+      {
+        integrity: sha512-+DrFSCZWyFdtEAWR5xIBTV8GX0RA9iB+y7ZlJPRAXrNG8TdBY9vc7/MIGolIgrkMPK4mGMn07YG/qEyPY+iKaw==,
+      }
+    cpu: [x64]
+    os: [linux]
+
+  "@oxfmt/win32-arm64@0.17.0":
+    resolution:
+      {
+        integrity: sha512-FoUZRR7mVpTYIaY/qz2BYwzqMnL+HsUxmMWAIy6nl29UEkDgxNygULJ4rIGY4/Axne41fhtldLrSGBOpwNm3jA==,
+      }
+    cpu: [arm64]
+    os: [win32]
+
+  "@oxfmt/win32-x64@0.17.0":
+    resolution:
+      {
+        integrity: sha512-fBIcUpHmCwf3leWlo0cYwLb9Pd2mzxQlZYJX9dD9nylPvsxOnsy9fmsaflpj34O0JbQJN3Y0SRkoaCcHHlxFww==,
+      }
+    cpu: [x64]
+    os: [win32]
+
+  "@ts-morph/common@0.28.1":
+    resolution:
+      {
+        integrity: sha512-W74iWf7ILp1ZKNYXY5qbddNaml7e9Sedv5lvU1V8lftlitkc9Pq1A+jlH23ltDgWYeZFFEqGCD1Ies9hqu3O+g==,
+      }
+
+  "@types/node@24.10.2":
+    resolution:
+      {
+        integrity: sha512-WOhQTZ4G8xZ1tjJTvKOpyEVSGgOTvJAfDK3FNFgELyaTpzhdgHVHeqW8V+UJvzF5BT+/B54T/1S2K6gd9c7bbA==,
+      }
+
+  code-block-writer@13.0.3:
+    resolution:
+      {
+        integrity: sha512-Oofo0pq3IKnsFtuHqSF7TqBfr71aeyZDVJ0HpmqB7FBM2qEigL0iPONSCZSO9pE9dZTAxANe5XHG9Uy0YMv8cg==,
+      }
+
+  fdir@6.5.0:
+    resolution:
+      {
+        integrity: sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==,
+      }
+    engines: { node: ">=12.0.0" }
+    peerDependencies:
+      picomatch: ^3 || ^4
+    peerDependenciesMeta:
+      picomatch:
+        optional: true
+
+  minimatch@10.1.1:
+    resolution:
+      {
+        integrity: sha512-enIvLvRAFZYXJzkCYG5RKmPfrFArdLv+R+lbQ53BmIMLIry74bjKzX6iHAm8WYamJkhSSEabrWN5D97XnKObjQ==,
+      }
+    engines: { node: 20 || >=22 }
+
+  oxfmt@0.17.0:
+    resolution:
+      {
+        integrity: sha512-12Rmq2ub61rUZ3Pqnsvmo99rRQ6hQJwQsjnFnbvXYLMrlIsWT6SFVsrjAkBBrkXXSHv8ePIpKQ0nZph5KDrOqw==,
+      }
+    engines: { node: ^20.19.0 || >=22.12.0 }
+    hasBin: true
+
+  path-browserify@1.0.1:
+    resolution:
+      {
+        integrity: sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==,
+      }
+
+  picomatch@4.0.3:
+    resolution:
+      {
+        integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==,
+      }
+    engines: { node: ">=12" }
+
+  tinyglobby@0.2.15:
+    resolution:
+      {
+        integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==,
+      }
+    engines: { node: ">=12.0.0" }
+
+  ts-morph@27.0.2:
+    resolution:
+      {
+        integrity: sha512-fhUhgeljcrdZ+9DZND1De1029PrE+cMkIP7ooqkLRTrRLTqcki2AstsyJm0vRNbTbVCNJ0idGlbBrfqc7/nA8w==,
+      }
+
+  typescript@5.9.3:
+    resolution:
+      {
+        integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==,
+      }
+    engines: { node: ">=14.17" }
+    hasBin: true
+
+  undici-types@7.16.0:
+    resolution:
+      {
+        integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==,
+      }
+
+snapshots:
+  "@isaacs/balanced-match@4.0.1": {}
+
+  "@isaacs/brace-expansion@5.0.0":
+    dependencies:
+      "@isaacs/balanced-match": 4.0.1
+
+  "@oxfmt/darwin-arm64@0.17.0":
+    optional: true
+
+  "@oxfmt/darwin-x64@0.17.0":
+    optional: true
+
+  "@oxfmt/linux-arm64-gnu@0.17.0":
+    optional: true
+
+  "@oxfmt/linux-arm64-musl@0.17.0":
+    optional: true
+
+  "@oxfmt/linux-x64-gnu@0.17.0":
+    optional: true
+
+  "@oxfmt/linux-x64-musl@0.17.0":
+    optional: true
+
+  "@oxfmt/win32-arm64@0.17.0":
+    optional: true
+
+  "@oxfmt/win32-x64@0.17.0":
+    optional: true
+
+  "@ts-morph/common@0.28.1":
+    dependencies:
+      minimatch: 10.1.1
+      path-browserify: 1.0.1
+      tinyglobby: 0.2.15
+
+  "@types/node@24.10.2":
+    dependencies:
+      undici-types: 7.16.0
+
+  code-block-writer@13.0.3: {}
+
+  fdir@6.5.0(picomatch@4.0.3):
+    optionalDependencies:
+      picomatch: 4.0.3
+
+  minimatch@10.1.1:
+    dependencies:
+      "@isaacs/brace-expansion": 5.0.0
+
+  oxfmt@0.17.0:
+    optionalDependencies:
+      "@oxfmt/darwin-arm64": 0.17.0
+      "@oxfmt/darwin-x64": 0.17.0
+      "@oxfmt/linux-arm64-gnu": 0.17.0
+      "@oxfmt/linux-arm64-musl": 0.17.0
+      "@oxfmt/linux-x64-gnu": 0.17.0
+      "@oxfmt/linux-x64-musl": 0.17.0
+      "@oxfmt/win32-arm64": 0.17.0
+      "@oxfmt/win32-x64": 0.17.0
+
+  path-browserify@1.0.1: {}
+
+  picomatch@4.0.3: {}
+
+  tinyglobby@0.2.15:
+    dependencies:
+      fdir: 6.5.0(picomatch@4.0.3)
+      picomatch: 4.0.3
+
+  ts-morph@27.0.2:
+    dependencies:
+      "@ts-morph/common": 0.28.1
+      code-block-writer: 13.0.3
+
+  typescript@5.9.3: {}
+
+  undici-types@7.16.0: {}

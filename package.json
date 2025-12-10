@@ -1,0 +1,31 @@
+{
+  "name": "ts-autofix-ts1016",
+  "version": "0.1.0",
+  "description": "A codemod to automatically fix TS1016 errors (required parameter after optional parameter)",
+  "main": "dist/index.js",
+  "bin": {
+    "ts-autofix-ts1016": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "typescript",
+    "codemod",
+    "ts1016",
+    "autofix"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "ts-morph": "^27.0.2",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.2",
+    "oxfmt": "^0.17.0"
+  }
+}
